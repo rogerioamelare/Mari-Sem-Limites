@@ -109,22 +109,22 @@
             </div>
             <div class="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
                 <!-- Tango 1 -->
-                <div class="flex flex-col items-center">
-                <div class="relative group">
+                <div class="flex flex-col items-center w-full">
                     <video id="video-tango1" controls preload="metadata" poster="assets/poster1.jpg" class="w-full h-auto rounded-3xl shadow-xl border-4 border-pink-50 bg-gray-100 aspect-video object-cover">
                         <source src="assets/Tango1.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeos.
                     </video>
                 </div>
                 
                 <!-- Tango 2 -->
-                <div class="relative group mt-6 md:mt-0">
+                <div class="flex flex-col items-center w-full">
                     <video id="video-tango2" controls preload="metadata" poster="assets/poster2.jpg" class="w-full h-auto rounded-3xl shadow-xl border-4 border-pink-50 bg-gray-100 aspect-video object-cover">
                         <source src="assets/Tango2.mp4" type="video/mp4">
                         Seu navegador não suporta vídeos.
                     </video>
                 </div>
             </div>
-            
+
             <script>
                 // O navegador irá buscar automaticamente o frame do segundo 3 para exibir como capa
                 window.addEventListener('load', () => {
